@@ -1,0 +1,17 @@
+using InventoryManagementSystem.Models;
+using InventoryManagementSystem.ViewModels;
+
+namespace InventoryManagementSystem.ViewModels
+{
+    public class MainViewModel
+    {
+        public ProductViewModel ProductVM { get; set; }
+        public CategoryViewModel CategoryVM { get; set; }
+
+        public MainViewModel()
+        {
+            ProductVM = new ProductViewModel();
+            CategoryVM = new CategoryViewModel();
+        }
+    }
+}

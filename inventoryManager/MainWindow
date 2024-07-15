@@ -1,0 +1,15 @@
+<Window x:Class="InventoryManagementSystem.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Inventory Management System" Height="350" Width="525">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Products">
+                <DataGrid ItemsSource="{Binding Products}"/>
+            </TabItem>
+            <TabItem Header="Categories">
+                <!-- Category view content -->
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
